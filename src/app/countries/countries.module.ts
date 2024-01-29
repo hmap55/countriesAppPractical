@@ -6,6 +6,7 @@ import { ByRegionComponent } from './pages/by-region/by-region.component';
 import { CountryPageComponent } from './pages/country-page/country-page.component';
 import { SharedModule } from '../shared/shared.module';
 import { CountriesRoutingModule } from './countries-routing.module';
+import { CountriesTableComponent } from './component/countries-table/countries-table.component';
 
 
 
@@ -17,6 +18,7 @@ import { CountriesRoutingModule } from './countries-routing.module';
     ByCountryComponent,
     ByRegionComponent,
     CountryPageComponent,
+    CountriesTableComponent,
 
 
   ],
