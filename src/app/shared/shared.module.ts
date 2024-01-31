@@ -4,6 +4,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { RouterModule } from '@angular/router';
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner-component';
 
 
 
@@ -11,7 +12,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     SidebarComponent,
     SearchBoxComponent,
-    HomeComponent
+    HomeComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { RouterModule } from '@angular/router';
   exports:[
     SidebarComponent,
     SearchBoxComponent,
-    HomeComponent
+    HomeComponent,
+    LoadingSpinnerComponent
   ]
 })
 export class SharedModule { }

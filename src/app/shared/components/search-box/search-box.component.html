@@ -1,2 +1,8 @@
 
-<input type="text" name="" id="" class="form-control" [placeholder]="placeholder" (keyup.enter)="getValue(termino.value)" #termino>
+<!-- <input type="text" name="" id="" class="form-control"
+[placeholder]="placeholder" (keyup.enter)="getValue(termino.value)" #termino> -->
+
+<input type="text" name="" id="" class="form-control"
+[placeholder]="placeholder" (keyup)="onKeyPress(termino.value)"
+[value]="initialValue"
+#termino>
